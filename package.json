@@ -1,0 +1,15 @@
+{
+  "name": "langton",
+  "version": "1.0.0",
+  "description": "A formiga de Langton varrida em Node puro: a rodovia achada por deteccao de periodo, com duas grades independentes e as regras generalizadas.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
